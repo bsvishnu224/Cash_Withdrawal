@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #150b3e;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.profile {
+  color: #7c3aed;
+  height: 40px;
+  width: 40px;
+  background-color: #d4d2db;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-name {
+  color: #c7d2fe;
+  margin: 10px;
+  font-size: 16px;
+  font-family: roboto;
+}
+
+.balance-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.balance {
+  color: #382f5a;
+  margin-right: 20px;
+}
+
+.amount {
+  font-size: 26px;
+  color: #c7d2fe;
+}
+
+.amount-in {
+  color: #382f5a;
+  font-size: 10px;
+}
+.withdraw {
+  color: #c7d2fe;
+  font-family: roboto;
+}
+
+.choose-sum {
+  color: #382f5a;
+  font-size: 12px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+button {
+  width: 110px;
+  margin: 10px;
+}
